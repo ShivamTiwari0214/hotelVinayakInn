@@ -23,7 +23,7 @@ const HotelDetails = () => {
           <span className="font-poppins text-[#3B3B3B]">Available Rooms</span>
         </div>
         <h1>
-          <div className="font-poppins bg-white p-2 rounded-lg">50 Rooms</div>
+          <div className="font-poppins bg-white p-2 rounded-lg">25 Rooms</div>
         </h1>
       </div>
       <div className="flex flex-col gap-2">

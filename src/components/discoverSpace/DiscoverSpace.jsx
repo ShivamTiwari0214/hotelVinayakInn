@@ -18,7 +18,7 @@ const DiscoverSpace = () => {
               <img src={singlePerson} alt="Person" />
             </div>
             <div>
-              <h4 className='font-poppins text-sm'>Basic Room</h4>
+              <h4 className='font-poppins text-sm'>Basic</h4>
               <h6 className='font-poppins text-xs font-light'>Single Person</h6>
             </div>
           </div>
@@ -37,8 +37,8 @@ const DiscoverSpace = () => {
               <img src={people} alt="Person" />
             </div>
             <div>
-              <h4 className='font-poppins text-sm'>Basic Room</h4>
-              <h6 className='font-poppins text-xs font-light'>Single Person</h6>
+              <h4 className='font-poppins text-sm'>Standard</h4>
+              <h6 className='font-poppins text-xs font-light'>2 People</h6>
             </div>
           </div>
           
@@ -56,8 +56,8 @@ const DiscoverSpace = () => {
               <img src={people} alt="Person" />
             </div>
             <div>
-              <h4 className='font-poppins text-sm'>Basic Room</h4>
-              <h6 className='font-poppins text-xs font-light'>Single Person</h6>
+              <h4 className='font-poppins text-sm'>Premium</h4>
+              <h6 className='font-poppins text-xs font-light'>3 People</h6>
             </div>
           </div>
           
@@ -75,8 +75,8 @@ const DiscoverSpace = () => {
               <img src={people} alt="Person" />
             </div>
             <div>
-              <h4 className='font-poppins text-sm'>Basic Room</h4>
-              <h6 className='font-poppins text-xs font-light'>Single Person</h6>
+              <h4 className='font-poppins text-sm'>Gallery</h4>
+              <h6 className='font-poppins text-xs font-light'>Spacious Gallery</h6>
             </div>
           </div>
           
