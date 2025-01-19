@@ -5,6 +5,7 @@ import standard from "../ui/image/Standard.jpg";
 import singlePerson from "../ui/icons/singlePerson.svg";
 import people from "../ui/icons/people.svg";
 import gallary from "../ui/image/gallary.jpg";
+import smily from '../ui/icons/smilyEmoji.svg'
 const DiscoverSpace = () => {
   return (
     <div id="rooms" className="text-center mt-9">
@@ -79,7 +80,7 @@ const DiscoverSpace = () => {
             <div>
               <div className="flex justify-evenly sm:justify-start sm:gap-8 sm:pl-10 items-center py-2">
                 <div>
-                  <img src={people} className="sm:h-6" alt="Person" />
+                  <img src={smily} className="sm:h-6" alt="Person" />
                 </div>
                 <div>
                   <h4 className="font-poppins text-sm">Gallery</h4>

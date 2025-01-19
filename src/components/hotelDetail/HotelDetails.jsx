@@ -2,6 +2,7 @@ import location from "../ui/icons/location.svg";
 import rooms from "../ui/icons/totalRooms.svg";
 import contact from "../ui/icons/phone.svg";
 import buttonPhone from "../ui/icons/buttonPhone.svg";
+
 const HotelDetails = () => {
   return (
     <div className="px-6 ">
