@@ -27,9 +27,9 @@ const DiscoverSpace = () => {
         </div>
       </div>
       
-      <div className='w-[40vw] min-h-50'>
+      <div className='w-[40vw] min-h-50 '>
         <div className='rounded-lg border overflow-hidden   bg-white'>
-        <img src={premium} className='aspect-[4/3]' alt="Hotel Room" />
+        <img src={premium} className='max-h-[30vw] w-full aspect-[4/3]' alt="Hotel Room" />
         <div>
 
           <div className='flex justify-evenly items-center py-2'>
@@ -67,12 +67,12 @@ const DiscoverSpace = () => {
 
       <div className='w-[40vw] min-h-50'>
         <div className='rounded-lg border overflow-hidden   bg-white'>
-        <img src={gallary} className='aspect-[4/3]' alt="Hotel Room" />
+        <img src={gallary} className='max-h-[30vw] w-full aspect-[4/3]' alt="Hotel Room" />
         <div>
 
           <div className='flex justify-evenly items-center py-2'>
             <div>
-              <img src={singlePerson} alt="Person" />
+              <img src={people} alt="Person" />
             </div>
             <div>
               <h4 className='font-poppins text-sm'>Basic Room</h4>
