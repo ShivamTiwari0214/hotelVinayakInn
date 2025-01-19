@@ -9,13 +9,22 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="h-full w-full bg-[#E2E0DF] pt-5">
+      <div className="sm:px-10 md:px-28">
       <Navbar />
-      <HeroSection />
-      <HotelDetails />
-      <DiscoverSpace />
-      <Elegance />
-      <Map />
-      <Footer />
+
+      </div>
+      <div className="sm:px-10 md:px-28"> <HeroSection /></div>
+     
+      <div className="sm:px-10 md:px-28"> <HotelDetails /></div>
+     
+      <div className="sm:px-10 md:px-28"><DiscoverSpace /></div>
+      
+      <div className="sm:px-10 md:px-28"><Elegance /></div>
+      
+      <div className="sm:px-10 md:px-28"><Map /></div>
+      
+      <div className="sm:px-10 md:px-28"><Footer /></div>
+      
     </div>
   );
 }

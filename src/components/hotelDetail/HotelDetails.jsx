@@ -4,8 +4,8 @@ import contact from "../ui/icons/phone.svg";
 import buttonPhone from "../ui/icons/buttonPhone.svg";
 const HotelDetails = () => {
   return (
-    <div className="px-6">
-    <div className="flex flex-col gap-5 justify-between mt-5 bg-[#EBEBEB]/[75%] py-6 px-4 rounded-xl w-full ">
+    <div className="px-6 ">
+    <div className="flex sm:min-h-[500px] sm:py-14 flex-col gap-5  justify-between mt-5 bg-[#EBEBEB]/[75%] py-6 px-4 rounded-xl w-full ">
       <div className="flex flex-col gap-2">
         <div className="flex align-middle gap-2">
           <img src={location} alt="icon" className="h-5" />
